@@ -1,7 +1,7 @@
 ---
 # 首页头
 layout: splash #这个比home好看，有块块
-permalink: /
+permalink: /home/
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
