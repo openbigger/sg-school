@@ -1,21 +1,21 @@
 # 主题
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes" #@4.16.4
-minimal_mistakes_skin: "air" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "contrast" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # 网站设置
 locale                   : "zh-CN"       #语言区域
-title                    : "这里是网站标题"
+title                    : "新加坡好学校"
 title_separator          : "|"           #网站标题与分页标题的分割线
-name                     : &name "默认作者" # &name is a YAML anchor which can be *referenced later     #
-description              : "这里是网站描述巴拉巴拉巴拉巴拉"
+name                     : &name "Openbigger" # &name is a YAML anchor which can be *referenced later     #
+description              : "再过几天"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # 站点根目录, e.g. "/blog"
 repository               : # "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image used in the “Related Posts” module, e.g. "/assets/images/500x300.png"
-logo                     : http://placehold.it/88x88.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "<--logo 这里是网站头标题点我回首页 主导航-->" # overrides the website title displayed in the masthead, use " " for no title
-search                   : true
+logo                     : "/assets/images/temp-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
+#search                   : true
 # 默认作者
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
@@ -37,17 +37,8 @@ author:
       url: "https://instagram.com/mmistakes"
 
 # Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/#"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/#"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/#"
+
+
 
 # 设置 YAML 头信息的默认值。
 defaults:
