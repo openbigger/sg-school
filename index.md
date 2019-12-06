@@ -19,8 +19,8 @@ intro:
 feature_row3:
   - #image_path: http://placehold.it/580x300.jpg #/assets/images/home/whitebear-500x300.jpeg
     #alt: "fully responsive"
-    title: "网站开发中"
-    excerpt: "估计要花个把月，尽请期待"
+    title: "This domain is on sale! 该域名限时出售！"
+    excerpt: "Please contact <xjtudd[at]gmail.com> 请发邮件给 <xjtudd[at]gmail.com>"
 ---
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="feature_row3" type="center" %}
